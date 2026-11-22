@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IKBall Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="theme-toggle" class="toggle-btn">🌙</button>
+    <header>
+      <img src="images/IKBALL_logo.png" alt="Logo IKBall" width="200px" height="auto">
+      <h1 class="texte-fondu">Le site GitHub officiel de IKBall</h1>
+    </header>
+    <br>  
+     <h1 class="boite-animee">Mon début</h1>
+    <br>
+     <h2 class="boite-animee">Je décide de commencer ce projet en 2025, ce projet, je souhaitez le faire pour apprendre et créer mon premier jeu-vidéo mobile.</h2>
+     <h2 class="boite-animee">J'essayais, mais je n'ai jamais laissé tomber et j'ai donc continuer sur mon chemin avant de créer ce jeu.</h2>
+     <h1 class="boite-animee">Le but</h1>
+     <h2 class="boite-animee">Je souhaite créer un jeu indépendant, 100% gratuit de pack booster foot pour pouvoir les collectionnez et faire des duels.</h2>
+     <br>
+     <br>
+     <br>
+     <h1 class="texte-fondu">22/11/2026</h1>
+     <h2 class="texte-fondu">Je décide de rendre public mon début de IKBall.<br>Ce n'est qu'uniquement une beta du jeu mais je me donnerai à fond pout terminer ce projet !</h2>
+     <br>
+     <br>
+     <footer>
+      <h3 class="glouglou">IKBall 2026.11.22<br>Projet réalisé par I. K. Kariachi</h3>
+     </footer>
+    <script>
+  const toggleButton = document.getElementById('theme-toggle');
+  toggleButton.addEventListener('click', () => {
+    document.body.classList.toggle('light-mode');
+    if (document.body.classList.contains('light-mode')) {
+      toggleButton.textContent = '☀️';
+    } else {
+      toggleButton.textContent = '🌙';
+    }
+  });
+</script>
+</body>
+</html>
